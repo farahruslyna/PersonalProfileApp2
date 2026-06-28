@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personal Profile Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Personal Profile</h1>
+
+    <form action="ProfileServlet" method="post">
+        <label>Name</label>
+        <input type="text" name="name" required>
+
+        <label>Student ID</label>
+        <input type="text" name="studentId" required>
+
+        <label>Program</label>
+        <input type="text" name="program" required>
+
+        <label>Email</label>
+        <input type="email" name="email" required>
+
+        <label>Hobbies</label>
+        <input type="text" name="hobbies" required>
+
+        <label>Short Self-Introduction</label>
+        <textarea name="intro" rows="4" required></textarea>
+
+        <button type="submit">Submit Profile</button>
+    </form>
+</div>
+
+</body>
+</html>
